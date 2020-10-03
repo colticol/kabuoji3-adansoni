@@ -1,5 +1,5 @@
 init:
-	pip install -r requirements.txt
+	pip3 install -r requirements.txt
 
 run:
-	python3 -m buyer.main
+	cd script && python3 main.py

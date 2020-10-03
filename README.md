@@ -1,10 +1,12 @@
 # kabuoji3-adansoni
 
-Get Stock Data from https://kabuoji3.com/
+Get Stock Data from [kabuoji3](https://kabuoji3.com/)
 
 ## Usage
 
-1. edit `script/config.ini`
+1. install selenium by `make init` and put [ChromeDriver](https://chromedriver.chromium.org/downloads) on PATH.
+
+2. edit `script/config.ini`
 
 | Item | Description |
 | --- | --- |
@@ -12,4 +14,4 @@ Get Stock Data from https://kabuoji3.com/
 | codes | ticker symbol list you want |
 | years | year list you want |
 
-2. execute by `cd script && python3 main.py`
+3. execute by `make run`
