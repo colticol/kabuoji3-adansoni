@@ -37,6 +37,7 @@ def main():
     years = json.loads(config.get("list", "years"))
 
     driver = webdriver.Chrome()
+    driver.implicitly_wait(5)
     for code in codes:
         try:
             for year in years:
